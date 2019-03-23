@@ -1,6 +1,6 @@
 n = int(input('enter the number of queens'))
 col = []
-for i in range(n+1):
+for i in range(n+1):#index of coloums will represent row and element at that index will represent coloum number
     col.append(0)
 q = 1
 
